@@ -88,7 +88,7 @@ if exclusion == "Bosjes":
             time.sleep(t)
             Vuren = input ('Je hebt het wapen die je in het begin hebt gevonden in je rugtas zitten. Je pakt hem uit je rugtas en begint te beslissen of je op zijn hoofd of lichaam schiet. (Hoofd) / (Lichaam) ')
             if Vuren == "Hoofd":
-                print ('Je hebt de soldaat doodgeschoten!')
+                print ('Je hebt de soldaat doodgeschoten en bent uit de exclusion zone! Gefeliciteerd, je hebt de game gewonnen!')
             else:
                 print('De soldaat heeft een kogelvrij vest aan heeft jou alsnog doodgeschoten. Helaas een foute keuze!')
     
